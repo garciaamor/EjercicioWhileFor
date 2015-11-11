@@ -18,7 +18,9 @@ public class ClaseWhile {
          float nota2;
          float nota3;
          
-         while (i<5){
+         int numAlumnos=Integer.parseInt(JOptionPane.showInputDialog("numero de alumnos"));
+         
+         while (i<numAlumnos){
              nota1=ClaseWhile.PonerNota1();
              nota2=ClaseWhile.PonerNota1();
              nota3=ClaseWhile.PonerNota1();
